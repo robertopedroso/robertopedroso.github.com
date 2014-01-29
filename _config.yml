@@ -1,0 +1,25 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://rpedroso.com
+
+author:
+  name:           'Roberto Pedroso'
+  email:          roberto@rpedroso.com
+  url:            https://rpedroso.com
+
+paginate:         5
+
+github:
+  repo:           https://github.com/robertopedroso/robertopedroso.github.com
+
+so:
+  prof:		      https://stackoverflow.com/users/673904/rpedroso
