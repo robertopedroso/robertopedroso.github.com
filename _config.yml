@@ -7,11 +7,12 @@ permalink:        pretty
 
 # Setup
 title:            Roberto Pedroso
-description:      'A student, hacker and philosopher who likes making software, <a href="http://minecraft.net" target="_blank">playing games</a> and reading books.'
+description:      'A hacker, geek and philosopher who likes making software, <a href="http://minecraft.net" target="_blank">playing games</a> and reading books.'
 url:              http://rpedroso.com
 
 # Use Github markdown
-input: GFM
+kramdown:
+    input: GFM
 
 author:
   name:           'Roberto Pedroso'
