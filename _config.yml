@@ -1,13 +1,13 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
 
 # Setup
 title:            Roberto Pedroso
-description:      'A hacker, geek and philosopher who likes appsec, <a href="http://minecraft.net" target="_blank">playing games</a> and reading <a href="http://www.amazon.com/After-Virtue-Study-Theory-Edition/dp/0268035040" target="_blank">books</a>.'
+description:      'University of Chicago graduate with a degree in <a href="http://philosophy.uchicago.edu/">nerdiness</a>. A hacker and geek who lives appsec, arguments about AI and <a href="http://minecraft.net" target="_blank">playing games</a>.
 url:              http://rpedroso.com
 
 # Use Github markdown
