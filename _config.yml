@@ -11,6 +11,8 @@ author:
   email:          roberto@rpedroso.com
   url:            https://rpedroso.com
 
+paginate:         5
+
 github:
   repo:           https://github.com/robertopedroso/robertopedroso.github.com
 
