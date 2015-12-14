@@ -7,12 +7,12 @@ At my current job, we provide an Account API through which customers can modify 
 
 After a few hours of digging, I had ruled out every bit of code between the API endpoint and the moment the SQL update query is generated. CodeIgniter provides a simple ActiveRecord implementation for generating queries from associative arrays:
 
-```php
+{% highlight php %}
 $table_id = 12345;
 $data = ['name' => 'Roberto Pedroso', 'timezone' => 'EST'];
 $this->db->where('id', $table_id);
 $this->db->update('mytable', $fields);
-```
+{% endhighlight %}
 
 Their QueryBuilder class is well tested. I was doubtful that a CI bug was to blame. So I inspected the output, which was producing T-SQL like this:
 
