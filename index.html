@@ -1,37 +1,70 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+    <meta charset="utf-8">
+    <title>Roberto Pedroso</title>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <style>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+      body {
+        margin: 10% auto;
+        max-width: 960px;
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+        background-color: #181818;
+        color: #b8b8b8;
+
+        font-size: 2vw;
+        font-weight: 400;
+        font-family: Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif;
+      }
+
+      h1 {
+        color: #e8e8e8;
+      }
+
+      p {
+        line-height: 160%;
+      }
+
+      a {
+        color: #7cafc2;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: #ba8baf;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+  </style>
+
+  </head>
+
+  <body>
+
+    <h1>Roberto Pedroso</h1>
+
+    <p>
+      <em>I'm a Software Architect</em> currently living in New York City. I help organizations make
+      technical decisions that meet project objectives while sustaining long-term growth.
+      Currently, I'm the principle engineer at <a href="https://joor.com/">JOOR</a>.
+    </p>
+
+    <p>
+      I've been writing software since I was 8, and have been <em>paid</em> to do it
+      for the last 6 years. My previous role was at
+      <a href="https://www.lifestation.com/">LifeStation</a>.
+    </p>
+
+    <p>
+      Contact me on
+      <a href="https://www.linkedin.com/in/robertonpedroso">LinkedIn</a> or by
+      <a href="mailto:roberto@rpedroso.com">email</a>.
+    </p>
+
+  </body>
+</html>
